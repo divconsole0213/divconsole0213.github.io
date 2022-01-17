@@ -4,6 +4,7 @@ layout: "single"
 categories: "JAVA"
 tags: "자바"
 author_profile: true
+comments: true
 ---
 
 ### 변수 종류
