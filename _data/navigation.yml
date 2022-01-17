@@ -1,8 +1,20 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
+  - title: "HTML"
+    url: /categories/html
+ 
+  - title: "CSS"
+    url: /categories/css
+  
+  - title: "JAVASCRIP"
+    url: /categories/javascript
+
+  - title: "JAVA"
+    url: /categories/java
+
+  - title: "TAG"
+    url: /tags/
+
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
