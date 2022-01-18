@@ -1,7 +1,7 @@
 ---
 title: "변수"
-layout: categories
-permalink: /categories/java
+layout: single
+permalink: /java/
 tag: java
 author_profile: true
 comments: true
@@ -18,15 +18,13 @@ toc: true
  -<div color="red">지역 변수</div>: 변수 선언문이 수행되었을때
  - 지역변수의 생존범위: 
 
- <p> ex)
+ ex)
     ```java
-     public static void main(String[]args){
-      int a;
-     method m(a){
-      int b;
-      System.out.println("method m은 ()내부의 a를 읽을 수있습니다 여기서 a는 전역변수(클래스 영역에 위치하는 변수)를 의미합니다.
-      method m() {variable b는 method m(){}의 괄호바깥으로 나가면 운명을 다합니다 ㅠ,ㅠ
-      });   
-     }
-   }
-  ```
+      public static void main(String[]args){
+        int a;
+         method m(a){
+                        int b;
+                        System.out.println
+                        ("method m은 ()내부의 a를 읽을 수있습니다 여기서 a는 전역변수(클래스 영역에 위치하는 변수)를 의미합니다. method m() {variable b는 method m(){}의 괄호바깥으로 나가면 운명을 다합니다 ㅠ,ㅠ);   
+                     } }
+   ```

@@ -1,19 +1,23 @@
 # main links
 main:
-  - title: "HTML"
-    url: /categories/html
- 
-  - title: "CSS"
-    url: /categories/css
+   - title: "HTML"
+     url: /html/
+     cacategories: html
+
+   - title: "CSS"
+     url: /css/
+     categories: css
   
-  - title: "JAVASCRIP"
-    url: /categories/javascript
+   - title: "JS"
+     url: /javascript/
+     categories: javascript
 
-  - title: "JAVA"
-    url: /categories/java
+   - title: "JAVA"
+     url: /java/
+     categories: java
 
-  - title: "TAG"
-    url: /tags/
+   - title: "TAG"
+     url: /tags/
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

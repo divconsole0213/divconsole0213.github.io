@@ -1,7 +1,8 @@
 ---
 title: "JAVA"
-layout: tags
-permalink: /tags/
+layout: categories
+permalink: /java/
+categories: java
 author_profile: true
 sidebar_main: true
 ---
