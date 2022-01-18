@@ -3,28 +3,27 @@ title: "변수"
 layout: single
 permalink: /java/
 tag: java
-author_profile: true
+author_profile: false
 comments: true
 toc: true
 ---
 
 ### 변수 종류
-클래스 영역에 위치하는 변수
-  -클래스 변수 : 클래스에 메모리가 올라갈때
-  -인스턴스 변수 : 인스턴스가 생성되었을때 
+클래스 영역에 위치하는 변수<br>
+  클래스 변수 : 클래스에 메모리가 올라갈때<br>
+  인스턴스 변수 : 인스턴스가 생성되었을때 <br>
 
-클래스 영역 이외의 영역에 위치하는 변수
-<div color ="red">('메소드, 생성자, 초기화 내부')<div>
- -<div color="red">지역 변수</div>: 변수 선언문이 수행되었을때
- - 지역변수의 생존범위: 
+클래스 영역 이외의 영역에 위치하는 변수('메소드, 생성자, 초기화 내부')<br>
+  지역 변수</div>: 변수 선언문이 수행되었을때 <br>
+  지역변수의 생존범위: <br>
 
- ex)
-    ```java
-      public static void main(String[]args){
-        int a;
-         method m(a){
-                        int b;
-                        System.out.println
-                        ("method m은 ()내부의 a를 읽을 수있습니다 여기서 a는 전역변수(클래스 영역에 위치하는 변수)를 의미합니다. method m() {variable b는 method m(){}의 괄호바깥으로 나가면 운명을 다합니다 ㅠ,ㅠ);   
-                     } }
-   ```
+ ```java
+   public class Test { 
+     public static void main(String[] args) {
+        int i = 0; 
+          while(i<1) {
+             int result = 100; i++; System.out.println(result); 
+             } //System.out.println(result);
+              } }
+
+```
