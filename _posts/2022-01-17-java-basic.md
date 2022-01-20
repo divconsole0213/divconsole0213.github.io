@@ -31,4 +31,4 @@ toc: true
 
 ```
 
-<p style="text-align";><img src="/assets/image/practice.png"></p>
+<p style="text-align"><img src="/assets/images/practice.png"></p>
