@@ -1,3 +1,4 @@
+   
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -16,23 +17,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Web Development Study"
+title                    : "Development work"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "YunBobae"
-description              : "I am a student who dreams of becoming a web developer."
-url                      : "https://divconsole0213.github.io/"
+description              : "study"
+# url                      : "https://divconsole0213.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "divconsole0213/divconsole0213.github.io"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" #false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  #provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "web development journal"
+    shortname            : # "Web Development Study" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -51,7 +52,7 @@ comments:
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
+  #  branch               :  "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
@@ -73,7 +74,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  : "4cf7e7aa2ed8e11d5f69bd85cc484acb5cfd2644"git
+naver_site_verification  : #"4cf7e7aa2ed8e11d5f69bd85cc484acb5cfd2644"git
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -94,23 +95,23 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : #"google-gtag"  false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-C951LS76K1
-    anonymize_ip         : false # true, false (default)
+    tracking_id          : # G-C951LS76K1
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "YunBobae"
-  avatar           : "/assets/built/images/blue.jpg"
-  bio              : "I am a student who dreams of becoming a web developer."
+  name             : "Bobae"
+  avatar           : "/assets/built/images/blue.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Studying Web Development"
   location         : "South Korea"
-  email            : hyelimy20@gmail.com
+  email            : "hyelimy20@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: " hyelimy20@gmail.com"
+    #  url: "hyelimy20@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://divconsole0213.github.io"
@@ -118,16 +119,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/divconsole0213"
 
-
 # Site Footer
 footer:
   links:
-   - label: "GitHub"
-     icon: "fab fa-fw fa-github"
-     url: "https://github.com/divconsole0213"
-
-   
-
+ 
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/divconsole0213"
 
 # Reading Files
 include:
@@ -234,16 +232,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -267,3 +265,4 @@ defaults:
       comments: true
       share: true
       related: true
+
