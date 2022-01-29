@@ -2,7 +2,7 @@
 title: "변수"
 subtitle: "변수 종류"
 layout: single
-permalink: /java/
+categories: java
 tag: java
 author_profile: false
 comments: true

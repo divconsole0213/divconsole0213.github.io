@@ -23,7 +23,7 @@ toc: true
     let variable = "변수선언함";
     console.log(variable); // 변수선언함
 
-    variable = "변수재할당함";
+    variable = "변수재할당함";`
     console.log(variable); // 변수재할당함
 
     let variable = "변수 재선언함" // ERROR
